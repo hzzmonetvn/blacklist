@@ -1,0 +1,15 @@
+# Title: HzzMonet YouTube Adblock Rewrite (Hosts syntax)
+# Description: Routes YouTube traffic to Albania SNI proxy to suppress ads on Smart TV & Mobile
+# Homepage: https://github.com/hzzmonetvn/blacklist
+# Author: hzzmonetvn
+# Last Updated: 2026-11-04 16:16:51 UTC
+# Total Entries: 8
+#
+91.239.7.227 youtube.com
+91.239.7.227 www.youtube.com
+91.239.7.227 m.youtube.com
+91.239.7.227 youtubei.googleapis.com
+91.239.7.227 googlevideo.com
+91.239.7.227 *.googlevideo.com
+91.239.7.227 redirector.googlevideo.com
+91.239.7.227 manifest.googlevideo.com

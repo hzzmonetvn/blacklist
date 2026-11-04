@@ -2,8 +2,8 @@
 # Description: Unified, cleaned, and deduplicated DNS blocklist for hosts/Pi-hole
 # Homepage: https://github.com/hzzmonetvn/blacklist
 # Author: hzzmonetvn
-# Last Updated: 2026-11-04 16:06:14 UTC
-# Total Entries: 216013
+# Last Updated: 2026-11-04 16:16:51 UTC
+# Total Entries: 216025
 #
 0.0.0.0 0.avmarket.rs
 0.0.0.0 0.myikas.com
@@ -50105,6 +50105,7 @@
 0.0.0.0 dic9vgwbkxd8r.cloudfront.net
 0.0.0.0 dicecandies.com
 0.0.0.0 diceresembleshudder.com
+0.0.0.0 dicezing.com
 0.0.0.0 dich-vu-dien-mayxanh.com
 0.0.0.0 dich-vu-kh-vip-vpbank.com
 0.0.0.0 dich-vu-kvip-vpbank.com
@@ -51973,6 +51974,7 @@
 0.0.0.0 dpidqeyalnpgn.online
 0.0.0.0 dpiixydxabnkh.site
 0.0.0.0 dpirwgljl6cjp.cloudfront.net
+0.0.0.0 dpizyarnfpcxw.site
 0.0.0.0 dpjf9a2rbjbvp.cloudfront.net
 0.0.0.0 dpjlvaveq1byu.cloudfront.net
 0.0.0.0 dpjrba.com
@@ -60645,6 +60647,7 @@
 0.0.0.0 fbmo1lfc9z9if8pq3k9jk.nbqtxkctqz9lqxyzby.cyou
 0.0.0.0 fbnayfsagcchw.space
 0.0.0.0 fbnazqugcohsu.space
+0.0.0.0 fbnerumrpwobt.space
 0.0.0.0 fbnimeaujrbup.website
 0.0.0.0 fbnrl.glamnetic.co.uk
 0.0.0.0 fboirhttd.com
@@ -79038,6 +79041,7 @@
 0.0.0.0 hrwlolycdpmnw.site
 0.0.0.0 hrxphjcj.icu
 0.0.0.0 hrxwfp.icu
+0.0.0.0 hryaavcnugcpp.site
 0.0.0.0 hryanv.nunnbush.com
 0.0.0.0 hryduolmotmmk.online
 0.0.0.0 hrypwbqr.calingo.ch
@@ -79238,6 +79242,7 @@
 0.0.0.0 hu.hurtowniastyropianu.pl
 0.0.0.0 hu2e7z5x.xyz
 0.0.0.0 huabfv.jshoe.co.kr
+0.0.0.0 huaegdweuddzq.space
 0.0.0.0 huanle97.com
 0.0.0.0 huarizomeu.qpon
 0.0.0.0 huaxinapp1.com
@@ -86723,6 +86728,7 @@
 0.0.0.0 jilqtoodfo.in
 0.0.0.0 jilteekookri.com
 0.0.0.0 jilwueaoshhby.site
+0.0.0.0 jilypbbncsyti.website
 0.0.0.0 jimbm.charlestyrwhitt.com
 0.0.0.0 jimgfxkebskny.site
 0.0.0.0 jimhloyoiczgn.space
@@ -89619,6 +89625,7 @@
 0.0.0.0 kjfaptynryuzd.space
 0.0.0.0 kjfmvnuri.click
 0.0.0.0 kjgb11.com
+0.0.0.0 kjgfkogotgdfg.site
 0.0.0.0 kjgmnojsekcps.website
 0.0.0.0 kjgza.smithoptics.com
 0.0.0.0 kjhjvchwtppzv.space
@@ -90048,6 +90055,7 @@
 0.0.0.0 knrzytcl7npbfz.p1fw1423z44lx17.cyou
 0.0.0.0 knsoknmyvyhab.website
 0.0.0.0 knsveecsvcxxl.online
+0.0.0.0 kntuknifvkfmw.space
 0.0.0.0 knucklemonthsedifice.com
 0.0.0.0 knucqgzjrzyxs.online
 0.0.0.0 knueqofkktzpk.site
@@ -208847,6 +208855,7 @@
 0.0.0.0 wxsoratqogziz.site
 0.0.0.0 wxstcswyfmaji.site
 0.0.0.0 wxtldkydabpmz.online
+0.0.0.0 wxtuiqwvpfoap.website
 0.0.0.0 wxunyc.handyhuellen.de
 0.0.0.0 wxuorj.parfumswinkel.nl
 0.0.0.0 wxuvtikeawhip.online
@@ -209558,6 +209567,7 @@
 0.0.0.0 xgv6nvb3htofxib39zooggyl7h.cfd
 0.0.0.0 xgvenv.farmatodo.com.co
 0.0.0.0 xgvgjcesdrssk.site
+0.0.0.0 xgwhfyaavzpyp.space
 0.0.0.0 xgwoeqkejqwen.site
 0.0.0.0 xgwqvg.lalafel.com
 0.0.0.0 xgwvtfjyklyyi.website
@@ -213394,6 +213404,7 @@
 0.0.0.0 ytbnfd.fandeco.ru
 0.0.0.0 ytbnvm.firadis.net
 0.0.0.0 ytccvtdtsfocf.online
+0.0.0.0 ytdayhyefpxcp.website
 0.0.0.0 yterxv.com
 0.0.0.0 ytgqhzfahpcep.site
 0.0.0.0 ythingy.com
@@ -215273,6 +215284,7 @@
 0.0.0.0 zorro.startickets.com
 0.0.0.0 zorseeckoaroa.net
 0.0.0.0 zosdscrdnltbz.space
+0.0.0.0 zotifypvvjhyf.space
 0.0.0.0 zotqhsyqbetkg.online
 0.0.0.0 zottl.ellevetsciences.com
 0.0.0.0 zouloafi.net

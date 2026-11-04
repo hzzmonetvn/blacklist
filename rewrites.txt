@@ -1,0 +1,12 @@
+# YouTube Adblock DNS Rewrites (NextDNS Profile 2e671e Replica)
+# Routing YouTube metadata, player API, and video CDN via Albania SNI Reverse Proxy (91.239.7.227)
+# Syntax supported: <IP> <domain> OR ||<domain>^$dnsrewrite=<IP>
+
+91.239.7.227 youtube.com
+91.239.7.227 www.youtube.com
+91.239.7.227 m.youtube.com
+91.239.7.227 youtubei.googleapis.com
+91.239.7.227 googlevideo.com
+91.239.7.227 *.googlevideo.com
+91.239.7.227 redirector.googlevideo.com
+91.239.7.227 manifest.googlevideo.com

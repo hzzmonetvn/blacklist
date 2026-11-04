@@ -4,6 +4,16 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'sources.txt'
+      - 'custom.txt'
+      - 'whitelist.txt'
+      - 'rewrites.txt'
+      - 'scripts/**'
+      - '.github/workflows/**'
 
 permissions:
   contents: write
@@ -27,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add blacklist.txt hosts.txt domains.txt
+          git add blacklist.txt hosts.txt domains.txt youtube-rewrite.txt youtube-hosts.txt
           if git diff --staged --quiet; then
             echo "No changes detected. Skipping commit."
           else

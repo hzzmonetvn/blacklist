@@ -2,8 +2,8 @@
 # Description: Raw unique domain list
 # Homepage: https://github.com/hzzmonetvn/blacklist
 # Author: hzzmonetvn
-# Last Updated: 2026-11-04 16:06:14 UTC
-# Total Domains: 216013
+# Last Updated: 2026-11-04 16:16:51 UTC
+# Total Domains: 216025
 #
 0.avmarket.rs
 0.myikas.com
@@ -50105,6 +50105,7 @@ dibtk.medtronic.com
 dic9vgwbkxd8r.cloudfront.net
 dicecandies.com
 diceresembleshudder.com
+dicezing.com
 dich-vu-dien-mayxanh.com
 dich-vu-kh-vip-vpbank.com
 dich-vu-kvip-vpbank.com
@@ -51973,6 +51974,7 @@ dpicywjxpgn.com
 dpidqeyalnpgn.online
 dpiixydxabnkh.site
 dpirwgljl6cjp.cloudfront.net
+dpizyarnfpcxw.site
 dpjf9a2rbjbvp.cloudfront.net
 dpjlvaveq1byu.cloudfront.net
 dpjrba.com
@@ -60645,6 +60647,7 @@ fbkmnr.112.2o7.net
 fbmo1lfc9z9if8pq3k9jk.nbqtxkctqz9lqxyzby.cyou
 fbnayfsagcchw.space
 fbnazqugcohsu.space
+fbnerumrpwobt.space
 fbnimeaujrbup.website
 fbnrl.glamnetic.co.uk
 fboirhttd.com
@@ -79038,6 +79041,7 @@ hrwiijarmrtsn.site
 hrwlolycdpmnw.site
 hrxphjcj.icu
 hrxwfp.icu
+hryaavcnugcpp.site
 hryanv.nunnbush.com
 hryduolmotmmk.online
 hrypwbqr.calingo.ch
@@ -79238,6 +79242,7 @@ hu-business.vodafone.com
 hu.hurtowniastyropianu.pl
 hu2e7z5x.xyz
 huabfv.jshoe.co.kr
+huaegdweuddzq.space
 huanle97.com
 huarizomeu.qpon
 huaxinapp1.com
@@ -86723,6 +86728,7 @@ jillsclickcorner.com
 jilqtoodfo.in
 jilteekookri.com
 jilwueaoshhby.site
+jilypbbncsyti.website
 jimbm.charlestyrwhitt.com
 jimgfxkebskny.site
 jimhloyoiczgn.space
@@ -89619,6 +89625,7 @@ kjeyrt.damart.fr
 kjfaptynryuzd.space
 kjfmvnuri.click
 kjgb11.com
+kjgfkogotgdfg.site
 kjgmnojsekcps.website
 kjgza.smithoptics.com
 kjhjvchwtppzv.space
@@ -90048,6 +90055,7 @@ knrwvhvd.naturtreu.de
 knrzytcl7npbfz.p1fw1423z44lx17.cyou
 knsoknmyvyhab.website
 knsveecsvcxxl.online
+kntuknifvkfmw.space
 knucklemonthsedifice.com
 knucqgzjrzyxs.online
 knueqofkktzpk.site
@@ -208847,6 +208855,7 @@ wxrgjdkxhegjn.online
 wxsoratqogziz.site
 wxstcswyfmaji.site
 wxtldkydabpmz.online
+wxtuiqwvpfoap.website
 wxunyc.handyhuellen.de
 wxuorj.parfumswinkel.nl
 wxuvtikeawhip.online
@@ -209558,6 +209567,7 @@ xgupczseyx.com
 xgv6nvb3htofxib39zooggyl7h.cfd
 xgvenv.farmatodo.com.co
 xgvgjcesdrssk.site
+xgwhfyaavzpyp.space
 xgwoeqkejqwen.site
 xgwqvg.lalafel.com
 xgwvtfjyklyyi.website
@@ -213394,6 +213404,7 @@ yt7ztgi0.xyz
 ytbnfd.fandeco.ru
 ytbnvm.firadis.net
 ytccvtdtsfocf.online
+ytdayhyefpxcp.website
 yterxv.com
 ytgqhzfahpcep.site
 ythingy.com
@@ -215273,6 +215284,7 @@ zorquaaeybckx.space
 zorro.startickets.com
 zorseeckoaroa.net
 zosdscrdnltbz.space
+zotifypvvjhyf.space
 zotqhsyqbetkg.online
 zottl.ellevetsciences.com
 zouloafi.net

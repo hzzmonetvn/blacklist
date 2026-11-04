@@ -22,6 +22,9 @@ WHITELIST_FILE = os.path.join(ROOT_DIR, "whitelist.txt")
 OUTPUT_BLACKLIST = os.path.join(ROOT_DIR, "blacklist.txt")
 OUTPUT_HOSTS = os.path.join(ROOT_DIR, "hosts.txt")
 OUTPUT_DOMAINS = os.path.join(ROOT_DIR, "domains.txt")
+REWRITES_FILE = os.path.join(ROOT_DIR, "rewrites.txt")
+OUTPUT_YT_REWRITE = os.path.join(ROOT_DIR, "youtube-rewrite.txt")
+OUTPUT_YT_HOSTS = os.path.join(ROOT_DIR, "youtube-hosts.txt")
 
 # Regex to validate standard domain names
 DOMAIN_REGEX = re.compile(
@@ -156,6 +159,69 @@ def load_custom_rules() -> set:
     print(f"Loaded {len(custom_domains)} custom block rules.")
     return custom_domains
 
+def build_rewrites(now_utc: str):
+    """Process rewrites.txt and generate AdGuard syntax and Hosts format rewrites."""
+    if not os.path.exists(REWRITES_FILE):
+        return
+
+    rewrites = []
+    with open(REWRITES_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith(("#", "!", "//", ";")):
+                continue
+            if "#" in line:
+                line = line.split("#")[0].strip()
+            if "!" in line:
+                line = line.split("!")[0].strip()
+
+            ip = ""
+            domain = ""
+            # Adblock syntax: ||domain^$dnsrewrite=IP
+            if "$dnsrewrite=" in line:
+                m = re.match(r"^\|\|?([^^$]+)\^\$dnsrewrite=([0-9a-fA-F.:]+)$", line)
+                if m:
+                    domain = m.group(1).strip().lower()
+                    ip = m.group(2).strip()
+            else:
+                parts = line.split()
+                if len(parts) >= 2:
+                    ip = parts[0].strip()
+                    domain = parts[1].strip().lower()
+
+            if ip and domain:
+                if (domain, ip) not in rewrites:
+                    rewrites.append((domain, ip))
+
+    if not rewrites:
+        return
+
+    # Write AdGuard format (youtube-rewrite.txt)
+    with open(OUTPUT_YT_REWRITE, "w", encoding="utf-8") as f:
+        f.write("! Title: HzzMonet YouTube Adblock Rewrite (AdGuard syntax)\n")
+        f.write("! Description: Routes YouTube traffic to Albania SNI proxy to suppress ads on Smart TV & Mobile\n")
+        f.write("! Homepage: https://github.com/hzzmonetvn/blacklist\n")
+        f.write("! Author: hzzmonetvn\n")
+        f.write(f"! Last Updated: {now_utc}\n")
+        f.write(f"! Total Rules: {len(rewrites)}\n")
+        f.write("!\n")
+        for domain, ip in rewrites:
+            f.write(f"||{domain}^$dnsrewrite={ip}\n")
+    print(f"[Wrote] {OUTPUT_YT_REWRITE} ({len(rewrites)} rules)")
+
+    # Write Hosts format (youtube-hosts.txt)
+    with open(OUTPUT_YT_HOSTS, "w", encoding="utf-8") as f:
+        f.write("# Title: HzzMonet YouTube Adblock Rewrite (Hosts syntax)\n")
+        f.write("# Description: Routes YouTube traffic to Albania SNI proxy to suppress ads on Smart TV & Mobile\n")
+        f.write("# Homepage: https://github.com/hzzmonetvn/blacklist\n")
+        f.write("# Author: hzzmonetvn\n")
+        f.write(f"# Last Updated: {now_utc}\n")
+        f.write(f"# Total Entries: {len(rewrites)}\n")
+        f.write("#\n")
+        for domain, ip in rewrites:
+            f.write(f"{ip} {domain}\n")
+    print(f"[Wrote] {OUTPUT_YT_HOSTS} ({len(rewrites)} entries)")
+
 def main():
     start_time = time.time()
     print("=== HzzMonet Blacklist Pipeline Started ===")
@@ -232,6 +298,9 @@ def main():
         for d in sorted_domains:
             f.write(f"{d}\n")
     print(f"[Wrote] {OUTPUT_DOMAINS}")
+
+    # 4. Process and output DNS rewrites
+    build_rewrites(now_utc)
 
     elapsed = round(time.time() - start_time, 2)
     print(f"=== Build finished successfully in {elapsed}s ===")
