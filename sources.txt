@@ -1,0 +1,39 @@
+# Danh sach cac nguon blacklist upstream
+# Moi dong 1 URL, ho tro format hosts hoac adblock
+
+# AdGuard DNS filter
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
+
+# HzzMonet
+https://abpvn.com/vip/hzzmonet.txt
+
+# AdGuard DNS Popup Hosts filter
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt
+
+# HaGeZi's Apple Tracker Blocklist
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt
+
+# HaGeZi's OPPO & Realme Tracker Blocklist
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt
+
+# HaGeZi's Samsung Tracker Blocklist
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt
+
+# HaGeZi's Vivo Tracker Blocklist
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt
+
+# HaGeZi's Windows/Office Tracker Blocklist
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt
+
+# HaGeZi's Xiaomi Tracker Blocklist
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt
+
+# Peter Lowe's Blocklist
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_3.txt
+
+# Dan Pollock's List
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_4.txt
+
+# HostsVN
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+

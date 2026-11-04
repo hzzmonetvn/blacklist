@@ -1,0 +1,12 @@
+# Whitelist / Exceptions
+# Cac domain khong bao gio bi chan
+
+@@||thm.market.xiaomi.com^$important
+@@||dldir1.qq.com^$important
+@@||guid.tpns.tencent.com^$important
+@@||access1.tpns.tencent.com^$important
+@@||ds-analytics.digibank.vn^$important
+@@||oth.eve.mdt.qq.com^$important
+@@||datadome.garena.com^$important
+@@||t.co^
+@@||www.taobao.com^$important
