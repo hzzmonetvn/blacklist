@@ -43,11 +43,22 @@ def extract_domain(line: str) -> str:
     if not line or line.startswith(("#", "!", "//", ";")):
         return ""
 
-    # Strip inline comments
+    # Skip browser extension cosmetic / element hiding rules (e.g. example.com##.ad)
+    if any(op in line for op in ("##", "#?#", "#@#", "#$#", "#%#", "#$?#", "#@%#")):
+        return ""
+
+    # Strip inline comments (only valid if preceded by whitespace; otherwise it's a cosmetic/anchor rule)
     if "#" in line:
-        line = line.split("#")[0].strip()
+        prefix = line.split("#")[0]
+        if prefix and not prefix.endswith((" ", "\t")):
+            return ""
+        line = prefix.strip()
     if "!" in line:
         line = line.split("!")[0].strip()
+
+    # Wildcard prefix *.example.com -> example.com
+    if line.startswith("*."):
+        line = line[2:]
 
     # Adblock syntax: ||example.com^ or ||example.com^$third-party
     if line.startswith("||"):

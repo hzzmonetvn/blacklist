@@ -1,6 +1,6 @@
 # HzzMonet Blacklist
 
-Hệ thống tự động hóa tổng hợp, chuẩn hóa và tối ưu danh sách chặn tên miền (Ad & Tracker Blocklist) từ các nguồn danh tiếng kết hợp bộ quy tắc cá nhân hóa.
+Hệ thống tự động hóa tổng hợp, chuẩn hóa và tối ưu danh sách chặn tên miền (Ad & Tracker Blocklist) từ hơn 54 nguồn danh tiếng (NextDNS, HaGeZi Multi Ultimate, OISD, Steven Black, AdAway, Goodbye Ads, ABPVN...) kết hợp bộ quy tắc cá nhân hóa với hơn 1.6 triệu quy tắc được làm sạch. Không chặn các tên miền cốt lõi của Google và Facebook.
 
 Workflow chạy định kỳ mỗi ngày lúc **00:00 UTC** thông qua GitHub Actions để cập nhật các tên miền mới nhất từ các nguồn upstream.
 
