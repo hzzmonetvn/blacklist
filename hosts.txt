@@ -2,7 +2,7 @@
 # Description: Unified, cleaned, and deduplicated DNS blocklist for hosts/Pi-hole
 # Homepage: https://github.com/hzzmonetvn/blacklist
 # Author: hzzmonetvn
-# Last Updated: 2026-11-04 16:54:57 UTC
+# Last Updated: 2026-11-04 16:57:57 UTC
 # Total Entries: 1600243
 #
 0.0.0.0 0--4.com
