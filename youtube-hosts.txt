@@ -2,7 +2,7 @@
 # Description: Routes YouTube traffic to Albania SNI proxy to suppress ads on Smart TV & Mobile
 # Homepage: https://github.com/hzzmonetvn/blacklist
 # Author: hzzmonetvn
-# Last Updated: 2026-11-04 16:57:57 UTC
+# Last Updated: 2026-11-05 05:48:45 UTC
 # Total Entries: 8
 #
 91.239.7.227 youtube.com
